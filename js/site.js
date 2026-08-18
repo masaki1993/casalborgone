@@ -1,14 +1,16 @@
+const languages = ["it", "en", "fr", "ja"];
 const languageButtons = document.querySelectorAll("[data-lang]");
-const translatable = document.querySelectorAll("[data-it][data-en]");
+const translatable = document.querySelectorAll("[data-it]");
 const menuButton = document.querySelector(".menu-button");
 const navWrap = document.querySelector(".nav-wrap");
 
 function setLanguage(language) {
-  const activeLanguage = language === "en" ? "en" : "it";
+  const activeLanguage = languages.includes(language) ? language : "it";
   document.documentElement.lang = activeLanguage;
 
   translatable.forEach((element) => {
-    element.textContent = element.dataset[activeLanguage];
+    const text = element.dataset[activeLanguage] || element.dataset.it;
+    if (text) element.textContent = text;
   });
 
   languageButtons.forEach((button) => {
@@ -20,21 +22,28 @@ function setLanguage(language) {
   localStorage.setItem("casalborgone-language", activeLanguage);
 }
 
+function setMenu(open) {
+  if (!menuButton || !navWrap) return;
+  navWrap.classList.toggle("open", open);
+  menuButton.setAttribute("aria-expanded", String(open));
+  document.body.classList.toggle("menu-open", open);
+}
+
 languageButtons.forEach((button) => {
   button.addEventListener("click", () => setLanguage(button.dataset.lang));
 });
 
 if (menuButton && navWrap) {
   menuButton.addEventListener("click", () => {
-    const isOpen = navWrap.classList.toggle("open");
-    menuButton.setAttribute("aria-expanded", String(isOpen));
+    setMenu(!navWrap.classList.contains("open"));
   });
 
   navWrap.querySelectorAll("a").forEach((link) => {
-    link.addEventListener("click", () => {
-      navWrap.classList.remove("open");
-      menuButton.setAttribute("aria-expanded", "false");
-    });
+    link.addEventListener("click", () => setMenu(false));
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") setMenu(false);
   });
 }
 

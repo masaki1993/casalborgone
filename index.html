@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="description" content="Scopri Casalborgone: storia, cultura, ospitalità e sapori sulle colline del Monferrato.">
   <title>Casalborgone — Colline del Monferrato</title>
   <link rel="icon" href="favicon.ico" sizes="any">
@@ -12,88 +12,88 @@
   <script src="js/site.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main" data-it="Vai al contenuto" data-en="Skip to content">Vai al contenuto</a>
+  <a class="skip-link" href="#main" data-it="Vai al contenuto" data-en="Skip to content" data-fr="Aller au contenu" data-ja="本文へ">Vai al contenuto</a>
   <header class="site-header">
-    <a class="brand" href="index.html"><img class="brand-mark" src="images/stemma-casalborgone.png" alt="Stemma del Comune di Casalborgone" width="48" height="48"><span>Casalborgone<small data-it="Piemonte · Italia" data-en="Piedmont · Italy">Piemonte · Italia</small></span></a>
-    <button class="menu-button" aria-expanded="false" aria-label="Menu">☰</button>
-    <div class="nav-wrap">
+    <a class="brand" href="index.html"><img class="brand-mark" src="images/stemma-casalborgone.png" alt="Stemma del Comune di Casalborgone" width="48" height="48"><span>Casalborgone<small data-it="Piemonte · Italia" data-en="Piedmont · Italy" data-fr="Piémont · Italie" data-ja="ピエモンテ · イタリア">Piemonte · Italia</small></span></a>
+    <button class="menu-button" aria-expanded="false" aria-controls="site-menu" aria-label="Menu"><span></span><span></span><span></span></button>
+    <div class="nav-wrap" id="site-menu">
       <nav class="site-nav" aria-label="Main navigation">
-        <a href="index.html" aria-current="page">Home</a>
-        <a href="storia.html" data-it="Storia" data-en="History">Storia</a>
-        <a href="vedere.html" data-it="Vedere" data-en="See">Vedere</a>
-        <a href="dormire.html" data-it="Dormire" data-en="Stay">Dormire</a>
-        <a href="mangiare.html" data-it="Mangiare" data-en="Taste">Mangiare</a>
-        <a href="cultura.html" data-it="Cultura" data-en="Culture">Cultura</a>
-        <a href="arrivare.html" data-it="Arrivare" data-en="Visit">Arrivare</a>
+        <a href="index.html" aria-current="page" data-it="Home" data-en="Home" data-fr="Accueil" data-ja="ホーム">Home</a>
+        <a href="storia.html" data-it="Storia" data-en="History" data-fr="Histoire" data-ja="歴史">Storia</a>
+        <a href="vedere.html" data-it="Vedere" data-en="See" data-fr="Voir" data-ja="見どころ">Vedere</a>
+        <a href="dormire.html" data-it="Dormire" data-en="Stay" data-fr="Séjour" data-ja="宿泊">Dormire</a>
+        <a href="mangiare.html" data-it="Mangiare" data-en="Taste" data-fr="Table" data-ja="食事">Mangiare</a>
+        <a href="cultura.html" data-it="Cultura" data-en="Culture" data-fr="Culture" data-ja="文化">Cultura</a>
+        <a href="arrivare.html" data-it="Arrivare" data-en="Visit" data-fr="Venir" data-ja="アクセス">Arrivare</a>
       </nav>
-      <div class="language" aria-label="Language"><button class="lang-button active" data-lang="it">IT</button><span>/</span><button class="lang-button" data-lang="en">EN</button></div>
+      <div class="language" aria-label="Language"><button class="lang-button active" data-lang="it">IT</button><button class="lang-button" data-lang="en">EN</button><button class="lang-button" data-lang="fr">FR</button><button class="lang-button" data-lang="ja">JA</button></div>
     </div>
   </header>
 
   <main id="main">
     <section class="hero" style="--hero: url('https://commons.wikimedia.org/wiki/Special:Redirect/file/Casalborgone%20centro%20storico.jpg?width=2400')">
       <div class="hero-content">
-        <p class="eyebrow reveal" data-it="Un borgo tra boschi e colline" data-en="A village among woods and hills">Un borgo tra boschi e colline</p>
+        <p class="eyebrow reveal" data-it="Un borgo tra boschi e colline" data-en="A village among woods and hills" data-fr="Un village parmi bois et collines" data-ja="森と丘に抱かれた村">Un borgo tra boschi e colline</p>
         <h1 class="reveal">Casalborgone</h1>
-        <p class="reveal" data-it="Il ritmo quieto del Piemonte, tra storia millenaria, sentieri e sapori del Monferrato." data-en="The quiet rhythm of Piedmont, among a thousand years of history, woodland paths and Monferrato flavours.">Il ritmo quieto del Piemonte, tra storia millenaria, sentieri e sapori del Monferrato.</p>
+        <p class="reveal" data-it="Il ritmo quieto del Piemonte, tra storia millenaria, sentieri e sapori del Monferrato." data-en="The quiet rhythm of Piedmont, among a thousand years of history, woodland paths and Monferrato flavours." data-fr="Le rythme tranquille du Piémont, entre mille ans d'histoire, sentiers et saveurs du Monferrato." data-ja="ピエモンテの静かなリズム。千年の歴史、森の道、モンフェッラートの味わい。">Il ritmo quieto del Piemonte, tra storia millenaria, sentieri e sapori del Monferrato.</p>
       </div>
-      <span class="scroll-cue" data-it="Scopri il borgo" data-en="Discover the village">Scopri il borgo</span>
+      <span class="scroll-cue" data-it="Scopri il borgo" data-en="Discover the village" data-fr="Découvrir le village" data-ja="村を歩く">Scopri il borgo</span>
     </section>
 
     <section class="intro">
       <div class="intro-inner">
-        <p class="eyebrow" data-it="Piemonte segreto" data-en="Hidden Piedmont">Piemonte segreto</p>
-        <h2 data-it="Dove il tempo segue ancora la collina" data-en="Where time still follows the hills">Dove il tempo segue ancora la collina</h2>
-        <p data-it="Tra Torino e il Monferrato, Casalborgone custodisce un centro storico raccolto, chiese antiche e un castello che domina la valle. Un luogo da attraversare lentamente." data-en="Between Turin and Monferrato, Casalborgone preserves an intimate historic centre, ancient churches and a castle overlooking the valley. A place to explore slowly.">Tra Torino e il Monferrato, Casalborgone custodisce un centro storico raccolto, chiese antiche e un castello che domina la valle. Un luogo da attraversare lentamente.</p>
+        <p class="eyebrow" data-it="Piemonte segreto" data-en="Hidden Piedmont" data-fr="Piémont secret" data-ja="隠れたピエモンテ">Piemonte segreto</p>
+        <h2 data-it="Dove il tempo segue ancora la collina" data-en="Where time still follows the hills" data-fr="Où le temps suit encore la colline" data-ja="時がいまも丘に沿う場所">Dove il tempo segue ancora la collina</h2>
+        <p data-it="Tra Torino e il Monferrato, Casalborgone custodisce un centro storico raccolto, chiese antiche e un castello che domina la valle. Un luogo da attraversare lentamente." data-en="Between Turin and Monferrato, Casalborgone preserves an intimate historic centre, ancient churches and a castle overlooking the valley. A place to explore slowly." data-fr="Entre Turin et le Monferrato, Casalborgone conserve un centre historique intime, des églises anciennes et un château qui domine la vallée. Un lieu à parcourir lentement." data-ja="トリノとモンフェッラートのあいだ。カザルボルゴーネは、小さな旧市街、古い教会、谷を見下ろす城を守る。ゆっくり歩く場所。">Tra Torino e il Monferrato, Casalborgone custodisce un centro storico raccolto, chiese antiche e un castello che domina la valle. Un luogo da attraversare lentamente.</p>
       </div>
     </section>
 
     <section class="feature">
       <div class="feature-media"><img src="images/leu-edificio-storico.jpg" alt="Edificio in laterizio nel centro storico di Casalborgone" loading="lazy"></div>
       <div class="feature-copy">
-        <p class="eyebrow" data-it="Il paese antico" data-en="The old village">Il paese antico</p>
-        <h2 data-it="Storie sulla pietra" data-en="Stories written in stone">Storie sulla pietra</h2>
-        <p data-it="Dal diploma imperiale del 999 a Casale Bergonis, dai conti Radicati ai Broglia: oltre mille anni hanno modellato il borgo e il suo castello." data-en="From the imperial diploma of 999 to Casale Bergonis, from the Radicati counts to the Broglia family: over a thousand years shaped the village and its castle.">Dal diploma imperiale del 999 a Casale Bergonis, dai conti Radicati ai Broglia: oltre mille anni hanno modellato il borgo e il suo castello.</p>
-        <a class="text-link" href="storia.html" data-it="Leggi la storia" data-en="Read the story">Leggi la storia</a>
+        <p class="eyebrow" data-it="Il paese antico" data-en="The old village" data-fr="Le vieux village" data-ja="古い村">Il paese antico</p>
+        <h2 data-it="Storie sulla pietra" data-en="Stories written in stone" data-fr="Des histoires dans la pierre" data-ja="石に刻まれた物語">Storie sulla pietra</h2>
+        <p data-it="Dal diploma imperiale del 999 a Casale Bergonis, dai conti Radicati ai Broglia: oltre mille anni hanno modellato il borgo e il suo castello." data-en="From the imperial diploma of 999 to Casale Bergonis, from the Radicati counts to the Broglia family: over a thousand years shaped the village and its castle." data-fr="Du diplôme impérial de 999 à Casale Bergonis, des comtes Radicati aux Broglia : plus de mille ans ont façonné le village et son château." data-ja="999年の皇帝勅書からカサーレ・ベルゴニスへ。ラディカーティ伯爵からブローリア家まで。千年を超える歳月が村と城を形づくった。">Dal diploma imperiale del 999 a Casale Bergonis, dai conti Radicati ai Broglia: oltre mille anni hanno modellato il borgo e il suo castello.</p>
+        <a class="text-link" href="storia.html" data-it="Leggi la storia" data-en="Read the story" data-fr="Lire l'histoire" data-ja="歴史を読む">Leggi la storia</a>
       </div>
     </section>
 
     <section class="feature">
       <div class="feature-media"><img src="images/leu-chiesa-ss-trinita.jpg" alt="Chiesa della Santissima Trinità a Casalborgone" loading="lazy"></div>
       <div class="feature-copy">
-        <p class="eyebrow" data-it="Da non perdere" data-en="Not to be missed">Da non perdere</p>
-        <h2 data-it="Il borgo, passo dopo passo" data-en="The village, step by step">Il borgo, passo dopo passo</h2>
-        <p data-it="Il Castello, Santa Maria Maddalena, la Santissima Trinità e San Carlo disegnano un itinerario raccolto tra Piazza Statuto e Piazza Carlo Bruna." data-en="The Castle, Santa Maria Maddalena, Santissima Trinità and San Carlo create an intimate route from Piazza Statuto to Piazza Carlo Bruna.">Il Castello, Santa Maria Maddalena, la Santissima Trinità e San Carlo disegnano un itinerario raccolto tra Piazza Statuto e Piazza Carlo Bruna.</p>
-        <a class="text-link" href="vedere.html" data-it="Cosa vedere" data-en="What to see">Cosa vedere</a>
+        <p class="eyebrow" data-it="Da non perdere" data-en="Not to be missed" data-fr="À ne pas manquer" data-ja="見逃せない">Da non perdere</p>
+        <h2 data-it="Il borgo, passo dopo passo" data-en="The village, step by step" data-fr="Le village, pas à pas" data-ja="一歩ずつ、村を歩く">Il borgo, passo dopo passo</h2>
+        <p data-it="Il Castello, Santa Maria Maddalena, la Santissima Trinità e San Carlo disegnano un itinerario raccolto tra Piazza Statuto e Piazza Carlo Bruna." data-en="The Castle, Santa Maria Maddalena, Santissima Trinità and San Carlo create an intimate route from Piazza Statuto to Piazza Carlo Bruna." data-fr="Le château, Santa Maria Maddalena, la Santissima Trinità et San Carlo dessinent un itinéraire intime de Piazza Statuto à Piazza Carlo Bruna." data-ja="城、サンタ・マリア・マッダレーナ、サンティッシマ・トリニタ、サン・カルロ。スタトゥート広場からカルロ・ブルーナ広場までの短い道。">Il Castello, Santa Maria Maddalena, la Santissima Trinità e San Carlo disegnano un itinerario raccolto tra Piazza Statuto e Piazza Carlo Bruna.</p>
+        <a class="text-link" href="vedere.html" data-it="Cosa vedere" data-en="What to see" data-fr="Que voir" data-ja="見どころ">Cosa vedere</a>
       </div>
     </section>
 
     <section class="feature">
       <div class="feature-media"><img src="images/leu-terrazza-colline.jpg" alt="Terrazza con vista sulle colline di Casalborgone" loading="lazy"></div>
       <div class="feature-copy">
-        <p class="eyebrow" data-it="Ospitalità rurale" data-en="Country hospitality">Ospitalità rurale</p>
-        <h2 data-it="Svegliarsi nel verde" data-en="Wake up in the green">Svegliarsi nel verde</h2>
-        <p data-it="Agriturismi, bed & breakfast e dimore storiche accolgono chi cerca silenzio, paesaggio e la naturale ospitalità piemontese." data-en="Farm stays, bed and breakfasts and historic residences welcome travellers seeking silence, landscape and natural Piedmontese hospitality.">Agriturismi, bed & breakfast e dimore storiche accolgono chi cerca silenzio, paesaggio e la naturale ospitalità piemontese.</p>
-        <a class="text-link" href="dormire.html" data-it="Dove dormire" data-en="Where to stay">Dove dormire</a>
+        <p class="eyebrow" data-it="Ospitalità rurale" data-en="Country hospitality" data-fr="Hospitalité rurale" data-ja="田舎のおもてなし">Ospitalità rurale</p>
+        <h2 data-it="Svegliarsi nel verde" data-en="Wake up in the green" data-fr="S'éveiller dans le vert" data-ja="緑のなかで目覚める">Svegliarsi nel verde</h2>
+        <p data-it="Agriturismi, bed & breakfast e dimore storiche accolgono chi cerca silenzio, paesaggio e la naturale ospitalità piemontese." data-en="Farm stays, bed and breakfasts and historic residences welcome travellers seeking silence, landscape and natural Piedmontese hospitality." data-fr="Agritourismes, chambres d'hôtes et demeures historiques accueillent ceux qui cherchent le silence, le paysage et l'hospitalité naturelle du Piémont." data-ja="アグリツーリズモ、B&B、歴史ある館。静けさ、景色、ピエモンテらしいもてなしを求める人を迎える。">Agriturismi, bed & breakfast e dimore storiche accolgono chi cerca silenzio, paesaggio e la naturale ospitalità piemontese.</p>
+        <a class="text-link" href="dormire.html" data-it="Dove dormire" data-en="Where to stay" data-fr="Où dormir" data-ja="宿泊">Dove dormire</a>
       </div>
     </section>
 
     <section class="feature">
       <div class="feature-media"><img src="images/leu-torre-orologio.jpg" alt="Torre dell'orologio nel borgo di Casalborgone" loading="lazy" style="object-position:center 20%"></div>
       <div class="feature-copy">
-        <p class="eyebrow" data-it="Sapori locali" data-en="Local flavours">Sapori locali</p>
-        <h2 data-it="A tavola, senza fretta" data-en="At the table, unhurried">A tavola, senza fretta</h2>
-        <p data-it="Trattorie, ristoranti, pizzerie e caffè di paese: indirizzi semplici per assaggiare il territorio e incontrare chi lo abita." data-en="Trattorias, restaurants, pizzerias and village cafés: unpretentious places to taste the land and meet those who live here.">Trattorie, ristoranti, pizzerie e caffè di paese: indirizzi semplici per assaggiare il territorio e incontrare chi lo abita.</p>
-        <a class="text-link" href="mangiare.html" data-it="Dove mangiare" data-en="Where to eat">Dove mangiare</a>
+        <p class="eyebrow" data-it="Sapori locali" data-en="Local flavours" data-fr="Saveurs locales" data-ja="土地の味">Sapori locali</p>
+        <h2 data-it="A tavola, senza fretta" data-en="At the table, unhurried" data-fr="À table, sans hâte" data-ja="テーブルで、急がずに">A tavola, senza fretta</h2>
+        <p data-it="Trattorie, ristoranti, pizzerie e caffè di paese: indirizzi semplici per assaggiare il territorio e incontrare chi lo abita." data-en="Trattorias, restaurants, pizzerias and village cafés: unpretentious places to taste the land and meet those who live here." data-fr="Trattorias, restaurants, pizzerias et cafés de village : des adresses simples pour goûter le territoire et rencontrer ceux qui l'habitent." data-ja="トラットリア、レストラン、ピッツェリア、村のカフェ。土地を味わい、住む人と出会うための素直な店。">Trattorie, ristoranti, pizzerie e caffè di paese: indirizzi semplici per assaggiare il territorio e incontrare chi lo abita.</p>
+        <a class="text-link" href="mangiare.html" data-it="Dove mangiare" data-en="Where to eat" data-fr="Où manger" data-ja="食事">Dove mangiare</a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="footer-brand"><img class="footer-mark" src="images/stemma-casalborgone.png" alt="" width="72" height="72"><div><p class="footer-title">Casalborgone</p><p data-it="Un piccolo borgo. Un lungo racconto." data-en="A small village. A long story.">Un piccolo borgo. Un lungo racconto.</p></div></div>
-    <div><h2 data-it="Contatti" data-en="Contact">Contatti</h2><address>Piazza Bruna 14<br>10020 Casalborgone (TO)<br><a href="tel:+390119174302">+39 011 9174302</a><br><a href="mailto:info@comune.casalborgone.to.it">info@comune.casalborgone.to.it</a></address></div>
-    <div class="footer-links"><h2 data-it="Esplora" data-en="Explore">Esplora</h2><a href="vedere.html" data-it="Cosa vedere" data-en="What to see">Cosa vedere</a><a href="arrivare.html" data-it="Come arrivare" data-en="How to get here">Come arrivare</a><a href="https://www.comune.casalborgone.to.it/" target="_blank" rel="noopener" data-it="Sito del Comune ↗" data-en="Municipal website ↗">Sito del Comune ↗</a></div>
-    <p class="footer-bottom">© Casalborgone · <span data-it="Guida turistica indipendente basata su fonti comunali" data-en="Independent visitor guide based on municipal sources">Guida turistica indipendente basata su fonti comunali</span> · <a href="https://commons.wikimedia.org/wiki/File:Casalborgone_centro_storico.jpg" target="_blank" rel="noopener">Foto: F Ceragioli, CC BY-SA 3.0</a></p>
+    <div class="footer-brand"><img class="footer-mark" src="images/stemma-casalborgone.png" alt="" width="72" height="72"><div><p class="footer-title">Casalborgone</p><p data-it="Un piccolo borgo. Un lungo racconto." data-en="A small village. A long story." data-fr="Un petit village. Une longue histoire." data-ja="小さな村。長い物語。">Un piccolo borgo. Un lungo racconto.</p></div></div>
+    <div><h2 data-it="Contatti" data-en="Contact" data-fr="Contact" data-ja="連絡先">Contatti</h2><address>Piazza Bruna 14<br>10020 Casalborgone (TO)<br><a href="tel:+390119174302">+39 011 9174302</a><br><a href="mailto:info@comune.casalborgone.to.it">info@comune.casalborgone.to.it</a></address></div>
+    <div class="footer-links"><h2 data-it="Esplora" data-en="Explore" data-fr="Explorer" data-ja="案内">Esplora</h2><a href="vedere.html" data-it="Cosa vedere" data-en="What to see" data-fr="Que voir" data-ja="見どころ">Cosa vedere</a><a href="arrivare.html" data-it="Come arrivare" data-en="How to get here" data-fr="Comment venir" data-ja="アクセス">Come arrivare</a><a href="https://www.comune.casalborgone.to.it/" target="_blank" rel="noopener" data-it="Sito del Comune ↗" data-en="Municipal website ↗" data-fr="Site municipal ↗" data-ja="公式サイト ↗">Sito del Comune ↗</a></div>
+    <p class="footer-bottom">© Casalborgone · <span data-it="Guida turistica indipendente basata su fonti comunali" data-en="Independent visitor guide based on municipal sources" data-fr="Guide touristique indépendant d'après les sources municipales" data-ja="自治体資料に基づく独立ガイド">Guida turistica indipendente basata su fonti comunali</span> · <a href="https://commons.wikimedia.org/wiki/File:Casalborgone_centro_storico.jpg" target="_blank" rel="noopener">Foto: F Ceragioli, CC BY-SA 3.0</a></p>
   </footer>
 </body>
 </html>
