@@ -238,6 +238,7 @@ h1, h2, h3 { font-family: var(--display); font-weight: 400; line-height: 1.05; }
     padding-bottom: max(4.5rem, calc(env(safe-area-inset-bottom) + 3rem));
   }
   .hero h1 { font-size: clamp(2.6rem, 13vw, 4.4rem); margin-bottom: 1rem; }
+  html[lang="ja"] .home-hero h1 { font-size: clamp(2.05rem, 10.4vw, 3.6rem); }
   .hero p { font-size: 1.02rem; }
   .page-hero { min-height: 78svh; }
   .page-hero h1 { max-width: none; }
@@ -286,8 +287,15 @@ h1, h2, h3 { font-family: var(--display); font-weight: 400; line-height: 1.05; }
 }
 
 html[lang="ja"] h1, html[lang="ja"] h2, html[lang="ja"] h3 { letter-spacing: .03em; line-height: 1.28; }
-html[lang="ja"] .hero h1, html[lang="ja"] .page-hero h1 { letter-spacing: .06em; }
-html[lang="ja"] .page-hero h1 { max-width: 8em; }
+html[lang="ja"] .page-hero h1 { letter-spacing: .06em; max-width: 8em; }
+html[lang="ja"] .home-hero h1 {
+  font-family: "Fraunces", Georgia, serif;
+  letter-spacing: -.045em;
+  line-height: 1.05;
+  white-space: nowrap;
+  overflow-wrap: normal;
+  word-break: keep-all;
+}
 html[lang="ja"] .site-nav a { letter-spacing: .08em; }
 
 @media (prefers-reduced-motion: reduce) {
