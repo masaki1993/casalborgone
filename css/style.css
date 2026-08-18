@@ -88,7 +88,7 @@ h1, h2, h3 { font-family: var(--display); font-weight: 400; line-height: 1.05; }
   position: relative; display: grid; min-height: 100svh; place-items: end start;
   padding: 10rem var(--gutter) 8vh; color: var(--white); overflow: hidden;
   background: linear-gradient(100deg, rgba(17,24,14,.72), rgba(17,24,14,.1)),
-    var(--hero) center/cover no-repeat;
+    var(--hero) var(--hero-pos, center)/cover no-repeat;
 }
 .hero::after { content: ""; position: absolute; inset: auto 0 0; height: 35%; background: linear-gradient(transparent, rgba(10,15,8,.55)); }
 .hero-content { position: relative; z-index: 1; max-width: 62rem; }
