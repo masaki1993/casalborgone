@@ -31,7 +31,7 @@
   </header>
 
   <main id="main">
-    <section class="hero" style="--hero: url('https://commons.wikimedia.org/wiki/Special:Redirect/file/Casalborgone%20centro%20storico.jpg?width=2400'); --hero-pos: left center">
+    <section class="hero home-hero" style="--hero: url('https://commons.wikimedia.org/wiki/Special:Redirect/file/Casalborgone%20centro%20storico.jpg?width=2400'); --hero-pos: left center">
       <div class="hero-content">
         <p class="eyebrow reveal" data-it="Un borgo tra boschi e colline" data-en="A village among woods and hills" data-fr="Un village parmi bois et collines" data-ja="森と丘に抱かれた村">Un borgo tra boschi e colline</p>
         <h1 class="reveal">Casalborgone</h1>
@@ -69,7 +69,12 @@
     </section>
 
     <section class="feature">
-      <div class="feature-media"><img src="images/leu-terrazza-colline.jpg" alt="Terrazza con vista sulle colline di Casalborgone" loading="lazy"></div>
+      <div class="feature-media">
+        <picture>
+          <source media="(max-width: 768px)" srcset="images/leu-vicolo-salita-no-cars.jpg">
+          <img src="images/leu-castello-muraglioni-no-cars.png" alt="Il verde del borgo di Casalborgone" loading="lazy">
+        </picture>
+      </div>
       <div class="feature-copy">
         <p class="eyebrow" data-it="Ospitalità rurale" data-en="Country hospitality" data-fr="Hospitalité rurale" data-ja="田舎のおもてなし">Ospitalità rurale</p>
         <h2 data-it="Svegliarsi nel verde" data-en="Wake up in the green" data-fr="S'éveiller dans le vert" data-ja="緑のなかで目覚める">Svegliarsi nel verde</h2>
