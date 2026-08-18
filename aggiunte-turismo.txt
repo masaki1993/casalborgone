@@ -1,0 +1,204 @@
+追加すべき観光コンテンツ（公式サイト照合）
+========================================
+日付: 2026-08-18
+対照: https://www.comune.casalborgone.to.it/it-it/home
+対象: 当サイト /Users/yujiromasaki/casalborgone （index / storia / vedere / dormire / mangiare / cultura / arrivare）
+
+方針
+----
+公式は行政ポータル。当サイトは観光ガイド。
+TARI・選挙・学校・全協会名簿は載せない。
+旅行者が「いつ来るか・どう来るか・何を食べるか・誰に聞くか」に効くものだけ。
+
+すでに当サイトにあるもの（再掲不要）
+------------------------------------
+- 見どころ4点: Castello / Santa Maria Maddalena / Santissima Trinità / San Carlo
+- 宿泊: Da Nonna Papera, Il Ristoro dei Folletti, WAY Garrona, VIAVAI, Castello
+  （公式 Dove dormire に Castello は無い。当サイトの方が厚い）
+- 食事: Brivido Rosso, Bar Sport, Italia, Rosso Canova, Pizzeria Love, La Madonnina
+- 図書館・教区・ASD Pro / Veloclub / Motoclub
+- 歴史タイムラインの骨格（999, 1265, Broglia, 1970）
+
+
+A. 最優先（観光の核が欠けている）
+================================
+
+1. 年中行事カレンダー
+   置き場: cultura.html に節を足す
+   出典: https://www.comune.casalborgone.to.it/it-it/appuntamenti/eventi-principali
+         https://www.comune.casalborgone.to.it/it-it/vivere-il-comune/scheda
+
+   - Sagra / Fiera del Pisello
+     いつ: 例年5月末週末（2024年は5/17–19）
+     何: エンドウ豆の祭り。50年以上。音楽・子ども・見本市。
+     食べもの: gogu（エンドウ餡の tortellone）、gelato al pisello
+     場所: Piazzale Gaiato ほか
+     主催: Pro Loco
+     出典: https://www.comune.casalborgone.to.it/it-it/appuntamenti/sagra-del-pisello-37449-1-76abd02dae23d3d6df2a6ae3deda5e50
+
+   - Festa della Madonnina（守護祭）
+     いつ: 9月第3月曜日（週末を含む。2026年は9/19–21）
+     出典: 公式 scheda 「Festa della Madonnina - 3° lunedì di settembre」
+
+   - Fiera della Nocciola（ヘーゼルナッツ見本市）
+     いつ: 守護祭と同じ週末（2026年は9/20、Piazzale Gaiato）
+     何: 州内の産品・手工芸
+     出典: 公式ホーム 2026 イベント欄
+
+   - Festa dell'Abbadia
+     いつ: 8月15日
+     何: 村で最も古い協会（特許 1680、Maria Giovanna Battista di Savoia）
+
+   - Festa dei Ceci / Valle Frascherina
+     いつ: 8月下旬、San Bernardo di Mentone
+     何: ヒヨコ豆。谷の祭り
+
+   - Festa della Valle Chiapini
+     いつ: 8月最終週末
+     何: 谷の伝統祭
+
+   注意: 日付は年ごとに動く。本文は「例年○月」＋公式イベントへのリンク。
+   当年確定日は Comune の Eventi を見る。
+
+
+2. 土地の味（pisello / nocciola）
+   置き場: mangiare.html に「Sapori del territorio」節
+   出典: https://www.comune.casalborgone.to.it/it-it/download/nota-storica-63798-7-955-5bd91f964717b47a9831b70b36acc114
+
+   - Pisello di Casalborgone
+     ピエモンテ州の典型農産物。マーク「Pisello sorridente」
+     莢最大5cm、種子は滑らかで淡緑、甘い・ペースト状。スープ向き
+     旧品種: Quarantin, Casalot, Barchetta（早生順）
+     播種: 11/30（Sant'Andrea）／収穫: 5–6月
+     市場の記録は少なくとも1920年
+
+   - Nocciola（ヘーゼルナッツ）
+     9月の見本市が示す土地の産物。料理・土産の軸にできる
+
+   当サイトの食事ページは店リストだけ。土地の味の説明が無い。
+
+
+3. 観光案内所（Pro Loco）
+   置き場: arrivare.html と footer
+   出典: https://www.comune.casalborgone.to.it/it-it/vivere-il-comune/associazioni-enti
+
+   Punto Comunale Informazioni Turistiche / Pro Loco Casalborgone APS
+   Via Gaiato 6/a
+   Tel. 347-8781565
+   prolococasalborgone@gmail.com
+   会長: Piera Barbero
+   役割: 観光資源の保全・祭りの運営・村の行事
+
+   広域: Associazione IN COLLINA - Turismo nel cuore del Piemonte
+   Piazza Dante 34, Castelnuovo Don Bosco
+   infopoint@turismoincollina.it
+
+
+
+
+B. 次に足すと厚くなる
+======================
+
+5. 地理・集落（「丘の村」を具体化）
+   置き場: index intro か storia、または arrivare
+   出典: https://www.comune.casalborgone.to.it/it-it/vivere-il-comune/scheda
+
+   - 面積 20.16 km2／標高 205 m（最低 193 / 最高 562）
+   - ISTAT: Collina interna（内陸丘陵）
+   - 川: torrente Losa, torrente Leona
+   - 住民呼称: Casalborgonesi
+   - 隣接: Aramengo (AT), Castagneto Po, Cinzano, Lauriano, Rivalba,
+           Tonengo (AT), San Sebastiano da Po, Berzano di San Pietro (AT)
+   - 集落: Airali, Civignola, Borganino, Ceriaglio, Madonnina, 'l Leu,
+           Val Chiapini, Val Frascherina, Val Scagno, Val Ferro,
+           Val Gobbo, San Rocco, Borgiona
+
+   谷の祭り（Chiapini / Frascherina）と地図がつながる。
+
+
+6. 見どころの穴
+   置き場: vedere.html
+   出典: 公式 Storia
+
+   - Chiesa di Santa Maria Trebea（墓地教会、旧教区）
+     消えた集落 Trebea / Trebledo（レオナ川沿い）の名を残す
+     公式 Cosa vedere には未掲載。歴史ページに出る
+     公開時間は要確認。載せ方は「遠景・歴史地点」まで
+
+   - 近郊の日帰り
+     Abbazia di Vezzolano（Cocconato / Radicata 家の墓、公式イベントにも出る）
+     ローマ都市 Industria（Monteu da Po）— 公式史が谷の出土と結びつける
+     Chivasso（駅・商業）
+
+
+7. 村で買う（旅行者向け店だけ）
+   置き場: mangiare.html の下、または「negozi」短い節
+   出典: https://www.comune.casalborgone.to.it/it-it/vivere-il-comune/shopping-aziende
+
+   食料
+   - PUNTO SMA（スーパー）Via Regina Margherita 2 / 011.9174656
+   - Panetteria Pasticceria F.lli Capone  Via Battaglia 2 / 011.9174332
+   - Macelleria Bianco Roberto  Corso Zucco 8 / 011.9174527
+   - Pigs & Cows  Via Regina Margherita 5 / 011.9174612
+   - Salumeria Airali  Corso Zucco 14 / 011.9174331
+   - 蜂蜜 Nettare della Terra di Chiauzzi Luca
+     Strada Baudina 12-13 / 328.3327695 / nettaredellaterra.com
+
+   実務
+   - Farmacia del Castello  Piazza Cavour 8 / 011.9174306
+     （公式 sanitarie。住所表記がページで揺れる。掲載前に確認）
+   - Edicola Luera Mara  Via Umberto I 6
+   - Tabaccheria Foglizzo Emma  Via Umberto I 4
+
+   載せない: 配管・不動産・葬儀・全職人名簿
+
+
+8. 旅行者用の連絡先
+   置き場: arrivare.html 末尾
+   出典: https://www.comune.casalborgone.to.it/it-it/vivere-il-comune/indirizzi-e-numeri-utili
+
+   - 緊急 112 / 救急 118
+   - Carabinieri Casalborgone  Piazza Bruna 8 / 011.9174301
+   - 薬局 上記
+   - Municipio  Piazza Bruna 14 / 011.9174302 / info@comune.casalborgone.to.it
+
+
+C. あると良い（文化の厚み）
+==========================
+
+9. 村の文化団体（観光客が触れるもの）
+   置き場: cultura.html
+   出典: 協会ページ
+
+   - Banda Musicale Filarmonica  Via Crosa 1 / 011.9174581
+     http://bandcasalborgone.altervista.org
+   - Associazione La Madonnina（守護祭）
+   - La Fucina delle Arti Manuali  Piazza C. Bruna 14（祭りの展示）
+   - Associazione Abbadia（1680、8/15）
+   - Università della Terza Età  Piazza C. Bruna 14
+
+10. 歴史の肉付け（storia は要約しすぎ）
+    置き場: storia.html のタイムラインを少し伸ばす
+    出典: https://www.comune.casalborgone.to.it/it-it/vivere-il-comune/storia
+    全文スクレイプ済: info1.txt
+
+    足すと旅の話になる点だけ:
+    - 地名: Casale di Bergone → 誤読で Casalborgone
+    - 消えた集落: Trebea, Pinerano, Placibello, Lifengo, San Siro, Monteregio
+    - ローマ碑文: seviro Terzo Bresio、cascina Gallo in Val Caramellini
+    - 1361 / 1431: 城がサヴォイアとモンフェッラートに交互占領
+    - 1630 ペストで最後の Radicati が死ぬ
+    - 1638: Maria Cristina di Savoia が Mario Broglia に封土を渡す
+    - 家墓: Abbazia di Vezzolano（1095）
+    全文コピーはしない。出典クレジットは既にある。
+
+
+
+実装メモ
+--------
+- 事実は公式に合わせる。発明しない
+- 祭りの日付は「例年」＋ Comune Eventi リンク
+- 店・協会は閉店している可能性。掲載前に電話確認
+- 薬局住所は公式2ページで表記が違う。確認してから
+- 4言語 data-* を忘れない
+- 声: 短い。地名・石・丘・時間・電話。宣伝しない

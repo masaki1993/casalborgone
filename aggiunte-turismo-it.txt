@@ -1,0 +1,227 @@
+Contenuti turistici da aggiungere (confronto con il sito comunale)
+==================================================================
+Data: 2026-08-18
+Fonte: https://www.comune.casalborgone.to.it/it-it/home
+Sito: /Users/yujiromasaki/casalborgone (index / storia / vedere / dormire / mangiare / cultura / arrivare)
+
+Criterio
+--------
+Il sito comunale è un portale amministrativo. Il nostro è una guida per visitatori.
+Non pubblicare TARI, elezioni, scuole, elenco completo delle associazioni.
+Solo ciò che serve a chi visita: quando venire, come arrivare, cosa mangiare, a chi chiedere.
+
+Già presente sul nostro sito (non ripetere)
+-------------------------------------------
+- Quattro luoghi: Castello / Santa Maria Maddalena / Santissima Trinità / San Carlo
+- Alloggi: Da Nonna Papera, Il Ristoro dei Folletti, WAY Garrona, VIAVAI, Castello
+  (il Castello non è nel Dove dormire comunale; il nostro elenco è più completo)
+- Tavole: Brivido Rosso, Bar Sport, Italia, Rosso Canova, Pizzeria Love, La Madonnina
+- Biblioteca, parrocchia, ASD Pro / Veloclub / Motoclub
+- Scheletro della cronologia (999, 1265, Broglia, 1970)
+
+
+A. Priorità alta (manca il nucleo turistico)
+============================================
+
+1. Calendario delle feste
+   Dove: aggiungere una sezione in cultura.html
+   Fonti: https://www.comune.casalborgone.to.it/it-it/appuntamenti/eventi-principali
+          https://www.comune.casalborgone.to.it/it-it/vivere-il-comune/scheda
+
+   - Sagra / Fiera del Pisello
+     Quando: di solito l'ultimo fine settimana di maggio (nel 2024: 17–19 maggio)
+     Cosa: festa del pisello, da oltre 50 anni. Musica, bambini, mostra-mercato.
+     Piatti: gogu (tortellone ripieno di piselli), gelato al pisello
+     Dove: Piazzale Gaiato e dintorni
+     Organizza: Pro Loco
+     Fonte: https://www.comune.casalborgone.to.it/it-it/appuntamenti/sagra-del-pisello-37449-1-76abd02dae23d3d6df2a6ae3deda5e50
+
+   - Festa della Madonnina (festa patronale)
+     Quando: terzo lunedì di settembre (con il fine settimana; nel 2026: 19–21 settembre)
+     Fonte: scheda comunale «Festa della Madonnina - 3° lunedì di settembre»
+
+   - Fiera della Nocciola
+     Quando: lo stesso fine settimana della festa patronale (nel 2026: 20 settembre, Piazzale Gaiato)
+     Cosa: prodotti e artigianato del territorio regionale
+     Fonte: eventi in home del Comune, 2026
+
+   - Festa dell'Abbadia
+     Quando: 15 agosto
+     Cosa: associazione più antica del paese (Patenti 1680, Maria Giovanna Battista di Savoia)
+
+   - Festa dei Ceci / Valle Frascherina
+     Quando: fine agosto, San Bernardo di Mentone
+     Cosa: festa di valle, ceci
+
+   - Festa della Valle Chiapini
+     Quando: ultimo fine settimana di agosto
+     Cosa: festa tradizionale di valle
+
+   Nota: le date si spostano ogni anno. Nel testo: «di solito a …» + link agli Eventi comunali.
+   Per l'anno in corso, verificare la sezione Eventi del Comune.
+
+
+2. Sapori del territorio (pisello / nocciola)
+   Dove: sezione «Sapori del territorio» in mangiare.html
+   Fonte: https://www.comune.casalborgone.to.it/it-it/download/nota-storica-63798-7-955-5bd91f964717b47a9831b70b36acc114
+
+   - Pisello di Casalborgone
+     Prodotto agroalimentare tipico del Piemonte. Marchio «Pisello sorridente»
+     Baccello max 5 cm, seme liscio, verde chiaro, dolce e pastoso. Adatto a zuppe
+     Varietà antiche: Quarantin, Casalot, Barchetta (in ordine di precocità)
+     Semina: 30 novembre (Sant'Andrea) / raccolta: maggio–giugno
+     Mercato documentato almeno dal 1920
+
+   - Nocciola
+     Il mercato di settembre la rende prodotto del territorio. Asse per cucina e souvenir
+
+   La pagina mangiare è solo un elenco di locali. Manca la voce del territorio.
+
+
+3. Punto informazioni (Pro Loco)
+   Dove: arrivare.html e footer
+   Fonte: https://www.comune.casalborgone.to.it/it-it/vivere-il-comune/associazioni-enti
+
+   Punto Comunale Informazioni Turistiche / Pro Loco Casalborgone APS
+   Via Gaiato 6/a
+   Tel. 347-8781565
+   prolococasalborgone@gmail.com
+   Presidente: Piera Barbero
+   Ruolo: tutela delle risorse turistiche, feste, vita del paese
+
+   Rete: Associazione IN COLLINA - Turismo nel cuore del Piemonte
+   Piazza Dante 34, Castelnuovo Don Bosco
+   infopoint@turismoincollina.it
+
+
+4. Accesso con numeri precisi
+   Dove: arrivare.html (oggi è solo «verso Chivasso»)
+   Fonti: https://www.comune.casalborgone.to.it/it-it/vivere-il-comune/trasporti
+          https://www.comune.casalborgone.to.it/it-it/vivere-il-comune/scheda
+
+   Distanze
+   - Torino 27 km
+   - Aeroporto di Torino Caselle 47 km
+   - Aeroporto di Milano Malpensa 125 km
+   - Stazione di Chivasso 12 km (Piazza G. Garibaldi)
+
+   Auto
+   - A4 Milano / Torino, uscita Chivasso Ovest
+   - SS458 Casalborgone–Asti
+
+   Autobus
+   - Linea GTT Brusasco – Settimo – Torino
+   - Info: Corso F. Turati 19/6, Torino / 011.57641 / gtt@gtt.to.it
+
+   Taxi
+   - Lovera Danilo (ncc / taxi locale) +39 377 9994583
+   - CTA taxi Aeroporto di Caselle 848.788711 / cta@ctataxi.it
+
+   Nota: non pubblicare orari. Solo distanze + link a Comune / GTT / Trenitalia.
+
+
+B. Poi, per dare spessore
+=========================
+
+5. Geografia e frazioni (rendere concreto il «borgo di collina»)
+   Dove: intro di index, oppure storia, oppure arrivare
+   Fonte: https://www.comune.casalborgone.to.it/it-it/vivere-il-comune/scheda
+
+   - Superficie 20,16 km2 / altitudine 205 m (min 193 / max 562)
+   - ISTAT: Collina interna
+   - Corsi d'acqua: torrente Losa, torrente Leona
+   - Abitanti: Casalborgonesi
+   - Confini: Aramengo (AT), Castagneto Po, Cinzano, Lauriano, Rivalba,
+              Tonengo (AT), San Sebastiano da Po, Berzano di San Pietro (AT)
+   - Località: Airali, Civignola, Borganino, Ceriaglio, Madonnina, 'l Leu,
+               Val Chiapini, Val Frascherina, Val Scagno, Val Ferro,
+               Val Gobbo, San Rocco, Borgiona
+
+   Così le feste di valle (Chiapini / Frascherina) si legano alla mappa.
+
+
+6. Luoghi mancanti
+   Dove: vedere.html
+   Fonte: Storia comunale
+
+   - Chiesa di Santa Maria Trebea (chiesa del cimitero, antica parrocchia)
+     Conserva il nome dell'abitato scomparso Trebea / Trebledo (sulla Leona)
+     Non è in Cosa vedere. Compare nella Storia.
+     Orari da verificare. Presentarla come luogo storico, non come visita guidata
+
+   - Gite di un giorno
+     Abbazia di Vezzolano (sepolcro delle famiglie Cocconato / Radicata; anche negli eventi comunali)
+     Città romana di Industria (Monteu da Po) — la Storia la collega ai reperti della valle
+     Chivasso (stazione e servizi)
+
+
+7. Dove comprare (solo negozi utili al visitatore)
+   Dove: in fondo a mangiare.html, o breve sezione «negozi»
+   Fonte: https://www.comune.casalborgone.to.it/it-it/vivere-il-comune/shopping-aziende
+
+   Alimentari
+   - PUNTO SMA (supermercato) Via Regina Margherita 2 / 011.9174656
+   - Panetteria Pasticceria F.lli Capone  Via Battaglia 2 / 011.9174332
+   - Macelleria Bianco Roberto  Corso Zucco 8 / 011.9174527
+   - Pigs & Cows  Via Regina Margherita 5 / 011.9174612
+   - Salumeria Airali  Corso Zucco 14 / 011.9174331
+   - Miele Nettare della Terra di Chiauzzi Luca
+     Strada Baudina 12-13 / 328.3327695 / nettaredellaterra.com
+
+   Utili
+   - Farmacia del Castello  Piazza Cavour 8 / 011.9174306
+     (indirizzo discordante tra due pagine comunali; verificare prima di pubblicare)
+   - Edicola Luera Mara  Via Umberto I 6
+   - Tabaccheria Foglizzo Emma  Via Umberto I 4
+
+   Non pubblicare: idraulici, immobiliari, onoranze, elenco artigiani
+
+
+8. Contatti per chi visita
+   Dove: fine di arrivare.html
+   Fonte: https://www.comune.casalborgone.to.it/it-it/vivere-il-comune/indirizzi-e-numeri-utili
+
+   - Emergenza 112 / Pronto soccorso 118
+   - Carabinieri Casalborgone  Piazza Bruna 8 / 011.9174301
+   - Farmacia: vedi sopra
+   - Municipio  Piazza Bruna 14 / 011.9174302 / info@comune.casalborgone.to.it
+
+
+C. Utile (spessore culturale)
+=============================
+
+9. Associazioni che il visitatore può incontrare
+   Dove: cultura.html
+   Fonte: pagina associazioni
+
+   - Banda Musicale Filarmonica  Via Crosa 1 / 011.9174581
+     http://bandcasalborgone.altervista.org
+   - Associazione La Madonnina (festa patronale)
+   - La Fucina delle Arti Manuali  Piazza C. Bruna 14 (mostre durante le feste)
+   - Associazione Abbadia (1680, 15 agosto)
+   - Università della Terza Età  Piazza C. Bruna 14
+
+10. Storia da infittire (la pagina è troppo sintetica)
+    Dove: allungare un poco la timeline di storia.html
+    Fonte: https://www.comune.casalborgone.to.it/it-it/vivere-il-comune/storia
+    Testo integrale già in: info1.txt
+
+    Solo i punti che servono al racconto di viaggio:
+    - Toponimo: Casale di Bergone → pronuncia errata → Casalborgone
+    - Abitati scomparsi: Trebea, Pinerano, Placibello, Lifengo, San Siro, Monteregio
+    - Iscrizione romana: seviro Terzo Bresio, cascina Gallo in Val Caramellini
+    - 1361 / 1431: il castello occupato a turno da Savoia e Monferrato
+    - 1630: peste, muoiono gli ultimi Radicati
+    - 1638: Maria Cristina di Savoia cede il feudo a Mario Broglia
+    - Sepolcro di famiglia: Abbazia di Vezzolano (1095)
+    Non copiare il testo intero. Il credito alla fonte c'è già.
+
+
+Note di lavoro
+--------------
+- Allineare i fatti alle fonti comunali. Non inventare
+- Date delle feste: «di solito» + link Eventi del Comune
+- Negozi e associazioni possono aver chiuso. Telefonare prima di pubblicare
+- Indirizzo della farmacia: due versioni sul sito comunale. Verificare
+- Non dimenticare i data-* in quattro lingue
+- Voce: breve. Nomi di luogo, pietra, collina, orari, telefoni. Niente slogan
